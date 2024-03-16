@@ -4,7 +4,7 @@ window.onload = function() {
   
   async function fetchWeatherForecast() {
     try {
-      const response = await fetch('http://www.7timer.info/bin/api.pl?lon=113.17&lat=23.09&product=astro&output=json');
+      const response = await fetch('https://www.7timer.info/bin/api.pl?lon=113.17&lat=23.09&product=astro&output=json');
       const data = await response.json();
       const weatherForecast = data.dataseries; // Adjust this based on the API response structure
   
