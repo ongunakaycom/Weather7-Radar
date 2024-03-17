@@ -215,3 +215,35 @@ var newData = JSON.parse(`{
 // Call the displayForecast function with the new JSON data
 displayForecast(newData.dataseries[0]);
 
+
+function displayForecast(data) {
+    // Clear previous results
+    document.getElementById("results").innerHTML = "";
+  
+    // Create table
+    var table = document.createElement("table");
+    table.className = "table";
+  
+    // Create table header
+    var headerRow = table.insertTHead().insertRow(0);
+    var headers = ["Timepoint", "Cloud Cover", "Seeing", "Transparency", "Precipitation Type"];
+    headers.forEach(function(header) {
+      var th = document.createElement("th");
+      th.textContent = header;
+      headerRow.appendChild(th);
+    });
+  
+    // Create table body
+    var tbody = table.createTBody();
+    data.dataseries.forEach(function(entry) {
+      var row = tbody.insertRow();
+      row.insertCell(0).textContent = entry.timepoint;
+      row.insertCell(1).textContent = entry.cloudcover;
+      row.insertCell(2).textContent = entry.seeing;
+      row.insertCell(3).textContent = entry.transparency;
+      row.insertCell(4).textContent = entry.prec_type;
+    });
+  
+    // Append table to results div
+    document.getElementById("results").appendChild(table);
+  }
