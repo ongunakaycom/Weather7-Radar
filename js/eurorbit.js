@@ -66,15 +66,3 @@ var jsonData = {
         }
     ]
 };
-
-// Access and log the JSON data
-console.log(jsonData.product); // Output: civillight
-console.log(jsonData.init); // Output: 2024031706
-
-jsonData.dataseries.forEach(function(data) {
-    console.log("Date: " + data.date);
-    console.log("Weather: " + data.weather);
-    console.log("Max Temperature: " + data.temp2m.max);
-    console.log("Min Temperature: " + data.temp2m.min);
-    console.log("Max Wind Speed: " + data.wind10m_max);
-});
