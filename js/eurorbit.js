@@ -213,4 +213,5 @@ var newData = JSON.parse(`{
 }`);
 
 // Call the displayForecast function with the new JSON data
-displayForecast(newData);
+displayForecast(newData.dataseries[0]);
+
