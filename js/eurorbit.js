@@ -247,3 +247,5 @@ function displayForecast(data) {
     // Append table to results div
     document.getElementById("results").appendChild(table);
   }
+
+  
