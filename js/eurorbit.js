@@ -212,40 +212,67 @@ var newData = JSON.parse(`{
     ]
 }`);
 
-// Call the displayForecast function with the new JSON data
-displayForecast(newData.dataseries[0]);
-
+const newData = {
+  "dataseries": [
+    {
+      "timepoint": "2023-02-20 00:00:00",
+      "cloudcover": 80,
+      "seeing": 10,
+      "transparency": 80,
+      "prec_type": "rain"
+    },
+    {
+      "timepoint": "2023-02-20 01:00:00",
+      "cloudcover": 70,
+      "seeing": 15,
+      "transparency": 70,
+      "prec_type": "rain"
+    },
+    {
+      "timepoint": "2023-02-20 02:00:00",
+      "cloudcover": 60,
+      "seeing": 20,
+      "transparency": 60,
+      "prec_type": "rain"
+    }
+  ]
+};
 
 function displayForecast(data) {
     // Clear previous results
     document.getElementById("results").innerHTML = "";
-  
+
     // Create table
     var table = document.createElement("table");
     table.className = "table";
-  
+
     // Create table header
     var headerRow = table.insertTHead().insertRow(0);
     var headers = ["Timepoint", "Cloud Cover", "Seeing", "Transparency", "Precipitation Type"];
     headers.forEach(function(header) {
-      var th = document.createElement("th");
-      th.textContent = header;
-      headerRow.appendChild(th);
+        var th = document.createElement("th");
+        th.textContent = header;
+        headerRow.appendChild(th);
     });
-  
+
     // Create table body
     var tbody = table.createTBody();
     data.dataseries.forEach(function(entry) {
-      var row = tbody.insertRow();
-      row.insertCell(0).textContent = entry.timepoint;
-      row.insertCell(1).textContent = entry.cloudcover;
-      row.insertCell(2).textContent = entry.seeing;
-      row.insertCell(3).textContent = entry.transparency;
-      row.insertCell(4).textContent = entry.prec_type;
+        var row = tbody.insertRow();
+        row.insertCell(0).textContent = entry.timepoint;
+        row.insertCell(1).textContent = entry.cloudcover;
+        row.insertCell(2).textContent = entry.seeing;
+        row.insertCell(3).textContent = entry.transparency;
+        row.insertCell(4).textContent = entry.prec_type;
     });
-  
+
     // Append table to results div
     document.getElementById("results").appendChild(table);
-  }
+}
 
-  
+// Check if newData is defined before calling the function
+if (newData !== null) {
+  displayForecast(newData.dataseries[0]);
+} else {
+  console.log("newData is null");
+}
