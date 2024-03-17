@@ -31,7 +31,7 @@ const submitRequest = (event) => {
 
     // Perform AJAX request to fetch weather data
     xhr = $.ajax({
-        url: 'https://www.example.com/api/weather',
+        url: 'https://www.7timer.info/bin/api.pl?lon=-122.057&lat=37.419&product=civil&output=json',
         type: 'GET',
         data: {
             lat: latitude,
