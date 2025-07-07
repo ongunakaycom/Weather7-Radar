@@ -1,3 +1,6 @@
+## 📁 Project Structure
+
+```plaintext
 ├── .gitattributes
 ├── .github/
 │   └── workflows/
