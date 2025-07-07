@@ -1,12 +1,9 @@
-````markdown
 # 🌦️ WeatherOps – A DevOps-Driven Weather Application
 
 **WeatherOps** is a modern, lightweight weather app that showcases DevOps engineering principles through continuous integration, secure deployment, and clean front-end architecture — all within a public GitHub repository.
 
 > ✅ **Live Demo:** [ongunakaycom.github.io/Weather7-Radar](https://ongunakaycom.github.io/Weather7-Radar)  
 > 🔧 **Tech Stack:** HTML · CSS · JavaScript · Bootstrap · GitHub Actions · OpenWeatherMap API
-
----
 
 ## 🚀 Features
 
@@ -17,8 +14,6 @@
 - 🔐 **Security-First Setup** — Dependabot integration for dependency scanning and recommended security headers  
 - ⚙️ **Modular & Scalable** — Clean codebase ready for backend integration, Dockerization, and testing expansion
 
----
-
 ## 🧪 DevOps Engineering Highlights
 
 | Category           | Implementation Details                                              |
@@ -28,8 +23,6 @@
 | 🛡️ Security        | Dependabot alerts enabled, secure headers recommended             |
 | 🧪 Testing Ready    | Placeholder setup prepared for unit tests & end-to-end testing    |
 | 🧱 Scalable Design  | Modular architecture supporting API extensions & containerization |
-
----
 
 ## 📁 Project Structure
 
@@ -46,9 +39,7 @@
 ├── README.md            # Project documentation
 ├── script.js            # JavaScript logic
 └── style.css            # Custom CSS styles
-````
-
----
+```
 
 ## 📌 Ideal For
 
@@ -57,15 +48,13 @@
 * 🧪 Test-driven development starter kit
 * ⚡ Rapid frontend prototyping with API integration
 
----
-
 ## 👋 About Me
 
 I’m **Ongun Akay** — a remote-first frontend developer passionate about scalable, cloud-native, and AI-ready web applications with a strong DevOps mindset.
 
-🌐 Website: [ongunakay.com](https://ongunakay.com)
-💼 LinkedIn: [linkedin.com/in/ongunakay](https://linkedin.com/in/ongunakay)
-🧑‍💻 GitHub: [github.com/ongunakaycom](https://github.com/ongunakaycom)
+🌐 Website: [ongunakay.com](https://ongunakay.com)<br>
+💼 LinkedIn: [linkedin.com/in/ongunakay](https://linkedin.com/in/ongunakay)<br>
+🧑‍💻 GitHub: [github.com/ongunakaycom](https://github.com/ongunakaycom)<br>
 📬 Email: [info@ongunakay.com](mailto:info@ongunakay.com)
 
 *Open to remote/hybrid roles across Europe and worldwide. Let’s build impactful solutions together!*
