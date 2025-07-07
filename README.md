@@ -24,12 +24,12 @@
 🧪 DevOps Engineering Highlights
 --------------------------------
 
-CategoryImplementation Details🔄 CI/CD PipelineGitHub Actions workflow: lint → build → deploy automatically☁️ DeploymentHosted on GitHub Pages; easily adaptable to Netlify or Vercel🛡️ SecurityDependabot alerts enabled, secure headers recommended🧪 Testing ReadyPlaceholder setup prepared for unit tests & end-to-end testing🧱 Scalable DesignModular architecture supporting API extensions & containerization
+🔄 CI/CD PipelineGitHub Actions workflow: lint → build → deploy automatically. ☁️ DeploymentHosted on GitHub Pages; easily adaptable to Netlify or Vercel🛡️ SecurityDependabot alerts enabled, secure headers recommended 🧪 Testing ReadyPlaceholder setup prepared for unit tests & end-to-end testing 🧱 Scalable DesignModular architecture supporting API extensions & containerization
 
 📁 Project Structure
 --------------------
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   plaintextCopyEdit├── .gitattributes  ├── .github/  │   └── workflows/  │       └── static.yml        # GitHub Actions pipeline config  ├── img/  │   └── windmills.png         # Static assets  ├── index.html                # Main HTML entry point  ├── LICENSE                   # MIT License  ├── README.md                 # Project documentation  ├── script.js                 # JavaScript logic  └── style.css                 # Custom CSS styles   `
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   ── .gitattributes  ├── .github/  │   └── workflows/  │       └── static.yml        # GitHub Actions pipeline config  ├── img/  │   └── windmills.png         # Static assets  ├── index.html                # Main HTML entry point  ├── LICENSE                   # MIT License  ├── README.md                 # Project documentation  ├── script.js                 # JavaScript logic  └── style.css                 # Custom CSS styles   `
 
 📌 Ideal For
 ------------
