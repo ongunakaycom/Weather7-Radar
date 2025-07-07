@@ -1,11 +1,1 @@
-.
-├── .github/           # CI workflows
-├── docker/            # Docker configs
-├── public/            # Static assets
-├── src/               # Application code
-│   ├── components/    # React components
-│   ├── tests/         # Test files
-│   └── ...            # App source
-├── Dockerfile         # Production build
-├── docker-compose.yml # Dev environment
-└── ...                # Config files
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   ── .gitattributes  ├── .github/  │   └── workflows/  │       └── static.yml        # GitHub Actions pipeline config  ├── img/  │   └── windmills.png         # Static assets  ├── index.html                # Main HTML entry point  ├── LICENSE                   # MIT License  ├── README.md                 # Project documentation  ├── script.js                 # JavaScript logic  └── style.css                 # Custom CSS styles   `
