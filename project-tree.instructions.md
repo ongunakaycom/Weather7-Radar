@@ -1,23 +1,11 @@
-├── .gitignore # Recommended to add
-
-├── .gitattributes # Optional but good for cross-OS line endings
-
-├── .github/
-
-│ └── workflows/
-
-│ └── static.yml
-
-├── img/
-
-│ └── windmills.png
-
-├── index.html
-
-├── LICENSE
-
-├── README.md
-
-├── script.js
-
-└── style.css
+.
+├── .github/           # CI workflows
+├── docker/            # Docker configs
+├── public/            # Static assets
+├── src/               # Application code
+│   ├── components/    # React components
+│   ├── tests/         # Test files
+│   └── ...            # App source
+├── Dockerfile         # Production build
+├── docker-compose.yml # Dev environment
+└── ...                # Config files
