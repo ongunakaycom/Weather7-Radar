@@ -69,11 +69,3 @@ I’m **Ongun Akay** — a remote-first frontend developer passionate about scal
 📬 Email: [info@ongunakay.com](mailto:info@ongunakay.com)
 
 *Open to remote/hybrid roles across Europe and worldwide. Let’s build impactful solutions together!*
-
----
-```
-```
----
----
-```
----
