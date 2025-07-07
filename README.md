@@ -1,10 +1,11 @@
 # 🌦️ WeatherOps – A DevOps-Driven Weather Application
 
-```markdown
 **WeatherOps** is a modern, lightweight weather application built to demonstrate **DevOps engineering** principles through continuous integration, secure deployment, and clean front-end architecture — all in a public GitHub project.
 
 > ✅ **Live Demo**: [ongunakaycom.github.io/Weather7-Radar](https://ongunakaycom.github.io/Weather7-Radar)  
 > 🔧 **Tech Stack**: HTML · CSS · JavaScript · Bootstrap · GitHub Actions · OpenWeatherMap API
+
+---
 
 ## 🚀 Features
 
@@ -15,7 +16,9 @@
 - 🔐 **Security-first setup** – Includes dependency scanning and hardened configuration  
 - ⚙️ **Ready for expansion** – Modular codebase designed for scaling (e.g., backend, Docker, testing)
 
- # DevOps Engineering Highlights
+---
+
+## 🧪 DevOps Engineering Highlights
 
 | Category              | Implementation Details                                                 |
 |-----------------------|------------------------------------------------------------------------|
@@ -24,6 +27,8 @@
 | 🛡️ Security Hardening   | Dependabot alerts + secure headers recommended                        |
 | 🧪 Test-Ready           | Placeholder setup for unit tests, E2E (Cypress/Jest compatible)        |
 | 🧱 Scalable Structure   | Easy to integrate APIs, backends, or Dockerized environments           |
+
+---
 
 ## 📁 Project Structure
 
@@ -39,4 +44,3 @@
 ├── README.md
 ├── script.js
 └── style.css
-
