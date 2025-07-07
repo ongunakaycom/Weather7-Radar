@@ -29,18 +29,7 @@
 📁 Project Structure
 --------------------
 
-── .gitattributes
-├── .github/
-│   └── workflows/
-│       └── static.yml        # GitHub Actions pipeline config
-├── img/
-│   └── windmills.png         # Static assets
-├── index.html                # Main HTML entry point
-├── LICENSE                   # MIT License
-├── README.md                 # Project documentation
-├── script.js                 # JavaScript logic
-└── style.css                 # Custom CSS styles
-
+Plain `   ── .gitattributes  ├── .github/  │   └── workflows/  │       └── static.yml        # GitHub Actions pipeline config  ├── img/  │   └── windmills.png         # Static assets  ├── index.html                # Main HTML entry point  ├── LICENSE                   # MIT License  ├── README.md                 # Project documentation  ├── script.js                 # JavaScript logic  └── style.css                 # Custom CSS styles   `
 
 📌 Ideal For
 ------------
