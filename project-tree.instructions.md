@@ -1,14 +1,23 @@
-## 📁 Project Structure
+├── .gitignore # Recommended to add
 
-```plaintext
-├── .gitattributes
+├── .gitattributes # Optional but good for cross-OS line endings
+
 ├── .github/
-│   └── workflows/
-│       └── static.yml
+
+│ └── workflows/
+
+│ └── static.yml
+
 ├── img/
-│   └── windmills.png
+
+│ └── windmills.png
+
 ├── index.html
+
 ├── LICENSE
+
 ├── README.md
+
 ├── script.js
+
 └── style.css
